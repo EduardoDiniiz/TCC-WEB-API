@@ -1,0 +1,18 @@
+networks:
+  tcc-network:
+    driver: bridge
+services:
+  devio.api:
+    build:
+      context: /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API
+      dockerfile: src/DevIO.Api/Dockerfile
+    environment:
+      TZ: America/Sao_Paulo
+    image: devio.api
+    networks:
+      tcc-network: null
+    ports:
+    - published: 5000
+      target: 80
+    restart: always
+version: '3.4'

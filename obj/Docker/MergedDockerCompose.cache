@@ -1,0 +1,16 @@
+services:
+  devio.api:
+    build:
+      context: /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API
+      dockerfile: src/DevIO.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: devio
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/eduardolaurentino/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/eduardolaurentino/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
