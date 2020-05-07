@@ -12,6 +12,7 @@ before_deploy:
     echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
 deploy:
     provider: script
+    script:
         docker tag devio.api:latest eduardoldp/docker-tcc-api:latest;
         docker push eduardoldp/docker-tcc-api;
     on:
