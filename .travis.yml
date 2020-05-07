@@ -17,5 +17,18 @@ deploy:
         docker push eduardoldp/docker-tcc-api;
     on:
         branch: master
-notifications:
-    email: true
+after_success:
+  - sudo apt-get -y install python3-pip python-dev
+  - sudo pip3 install -U setuptools
+  - sudo pip3 install -U virtualenvwrapper
+  - python3 -V
+  - pip3 -V
+  - pip3 uninstall wheel
+  - pip3 install wheel
+  - pip3 install awscli --upgrade --username
+  - export PATH=$PATH:$HOME/.local/bin
+  - eval aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 714398501609.dkr.ecr.us-east-2.amazonaws.com
+  - docker tag devio.api:latest $IMAGE_REPO_URL:latest
+  - docker push 714398501609.dkr.ecr.us-east-2.amazonaws.com/docker-tcc-api:latest
+  notifications:
+    email: false
