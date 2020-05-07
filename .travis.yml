@@ -2,7 +2,7 @@ sudo: required
 dist: bionic
 language: csharp
 mono: none
-dotnet: 3
+dotnet: 2.0.0
 python:
   - "3.6"
 services: docker
