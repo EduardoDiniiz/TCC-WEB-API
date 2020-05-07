@@ -15,7 +15,4 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ci\" />
-  </ItemGroup>
 </Project>

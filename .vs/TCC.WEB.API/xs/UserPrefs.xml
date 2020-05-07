@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{AE10C405-EEEB-4E5A-A506-9835AE2EA542}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/docker/MonoDevelop.Docker/MSBuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevIO.Api/Controllers/WeatherForecastController.cs">
     <Files>
-      <File FileName="src/DevIO.Data/Context/MeuDbContext.cs" Line="13" Column="1" />
-      <File FileName="src/DevIO.Api/Dockerfile" Line="4" Column="13" />
-      <File FileName="../../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/docker/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="384" Column="75" />
-      <File FileName="docker-compose.yml" Line="1" Column="1" />
+      <File FileName="src/DevIO.Api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TCC.WEB.API" expanded="True">
-            <Node name="DevIO.Api" expanded="True" />
-            <Node name="docker-compose" expanded="True" selected="True" />
+            <Node name="DevIO.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="docker-compose" expanded="True" />
           </Node>
         </State>
       </Pad>
