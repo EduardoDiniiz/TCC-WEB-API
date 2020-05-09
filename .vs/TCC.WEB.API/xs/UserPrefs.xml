@@ -1,16 +1,29 @@
 ﻿<Properties StartupConfiguration="{AE10C405-EEEB-4E5A-A506-9835AE2EA542}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevIO.Api/Controllers/WeatherForecastController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevIO.Business/Models/Item.cs">
     <Files>
-      <File FileName="src/DevIO.Api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="src/DevIO.Api/Configuration/DependencyInjectionConfig.cs" Line="1" Column="1" />
+      <File FileName="src/DevIO.Api/Startup.cs" />
+      <File FileName="src/DevIO.Business/Intefaces/IRepository.cs" />
+      <File FileName="src/DevIO.Data/Repository/Repository.cs" />
+      <File FileName="src/DevIO.Business/Models/Entity.cs" />
+      <File FileName="src/DevIO.Api/appsettings.json" />
+      <File FileName="src/DevIO.Data/Context/MeuDbContext.cs" Line="1" Column="1" />
+      <File FileName="src/DevIO.Business/Models/Item.cs" Line="4" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TCC.WEB.API" expanded="True">
-            <Node name="DevIO.Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="DevIO.Business" expanded="True">
+              <Node name="Intefaces" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Item.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="docker-compose" expanded="True" />
+            <Node name="DevIO.Data" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Repository" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

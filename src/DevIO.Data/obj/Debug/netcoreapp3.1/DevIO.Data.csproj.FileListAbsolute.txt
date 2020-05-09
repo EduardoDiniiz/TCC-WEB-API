@@ -10,3 +10,6 @@
 /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csproj.CopyComplete
 /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.dll
 /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.pdb
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.runtimeconfig.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.runtimeconfig.dev.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.genruntimeconfig.cache

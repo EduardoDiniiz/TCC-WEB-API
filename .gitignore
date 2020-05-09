@@ -1,0 +1,6 @@
+*.dll
+*.cache
+.vs/*
+*runtimeconfig.*
+bin/*
+*nuget.*
