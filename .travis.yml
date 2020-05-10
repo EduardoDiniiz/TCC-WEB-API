@@ -13,7 +13,7 @@ before_deploy:
 deploy:
     provider: script
     script:
-        docker tag devio.api:latest eduardoldp/docker-tcc-api:latest;
+        docker tag tcc.api:latest eduardoldp/docker-tcc-api:latest;
         docker push eduardoldp/docker-tcc-api;
     on:
         branch: master
