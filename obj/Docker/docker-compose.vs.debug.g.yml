@@ -1,20 +1,20 @@
 version: '3.4'
 
 services:
-  devio.api:
-    image: devio.api:dev
-    container_name: DevIO.Api
+  tcc.api:
+    image: tcc.api:dev
+    container_name: TCC.Api
     build:
       target: base
       labels:
         com.microsoft.created-by: "visual-studio"
-        com.microsoft.visual-studio.project-name: "DevIO.Api"
+        com.microsoft.visual-studio.project-name: "TCC.Api"
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/DevIO.Api:/app
+      - /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Api:/app
       - /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API:/src
       - /Users/eduardolaurentino/vsdbg/vs2017u5:/remote_debugger:rw
       - /Users/eduardolaurentino/.nuget/packages/:/root/.nuget/packages:ro
@@ -23,7 +23,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/netcoreapp3.1/DevIO.Api.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/netcoreapp3.1/TCC.Api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true

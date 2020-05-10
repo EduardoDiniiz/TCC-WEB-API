@@ -6,7 +6,7 @@
     <ProjectGuid>{926FEB98-5D6C-4166-B058-60DCEE1B1BD4}</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/weatherforecast</DockerServiceUrl>
-    <DockerServiceName>devio.api</DockerServiceName>
+    <DockerServiceName>tcc.api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.yml" />

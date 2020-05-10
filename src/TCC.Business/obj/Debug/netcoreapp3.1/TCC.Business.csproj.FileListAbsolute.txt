@@ -1,0 +1,11 @@
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/bin/Debug/netcoreapp3.1/TCC.Business.deps.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/bin/Debug/netcoreapp3.1/TCC.Business.runtimeconfig.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/bin/Debug/netcoreapp3.1/TCC.Business.runtimeconfig.dev.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/bin/Debug/netcoreapp3.1/TCC.Business.dll
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/bin/Debug/netcoreapp3.1/TCC.Business.pdb
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/obj/Debug/netcoreapp3.1/TCC.Business.csproj.CoreCompileInputs.cache
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/obj/Debug/netcoreapp3.1/TCC.Business.AssemblyInfoInputs.cache
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/obj/Debug/netcoreapp3.1/TCC.Business.AssemblyInfo.cs
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/obj/Debug/netcoreapp3.1/TCC.Business.dll
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/obj/Debug/netcoreapp3.1/TCC.Business.pdb
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Business/obj/Debug/netcoreapp3.1/TCC.Business.genruntimeconfig.cache

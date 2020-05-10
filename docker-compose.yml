@@ -1,11 +1,11 @@
 version: '3.4'
 services:
-  devio.api:
-    image: devio.api
+  tcc.api:
+    image: tcc.api
     restart: always
     build:
       context: .
-      dockerfile: src/DevIO.Api/Dockerfile
+      dockerfile: src/TCC.Api/Dockerfile
     environment:
         TZ: America/Sao_Paulo
     ports:

@@ -1,26 +1,28 @@
-﻿<Properties StartupConfiguration="{AE10C405-EEEB-4E5A-A506-9835AE2EA542}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevIO.Business/Models/Item.cs">
+﻿<Properties StartupConfiguration="{347C2EF4-18F5-4CB6-B164-9A881DB7E89E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/TCC.Api/Configuration/IdentityConfig.cs">
     <Files>
-      <File FileName="src/DevIO.Api/Configuration/DependencyInjectionConfig.cs" Line="1" Column="1" />
-      <File FileName="src/DevIO.Api/Startup.cs" />
-      <File FileName="src/DevIO.Business/Intefaces/IRepository.cs" />
-      <File FileName="src/DevIO.Data/Repository/Repository.cs" />
-      <File FileName="src/DevIO.Business/Models/Entity.cs" />
-      <File FileName="src/DevIO.Api/appsettings.json" />
-      <File FileName="src/DevIO.Data/Context/MeuDbContext.cs" Line="1" Column="1" />
-      <File FileName="src/DevIO.Business/Models/Item.cs" Line="4" Column="22" />
+      <File FileName="src/TCC.Api/Controllers/MainController.cs" Line="3" Column="11" />
+      <File FileName="src/TCC.Api/Controllers/AuthController.cs" Line="36" Column="1" />
+      <File FileName="src/TCC.Api/DTO/RegisterUserDTO.cs" Line="11" Column="9" />
+      <File FileName="src/TCC.Api/DTO/LoginUserDTO.cs" Line="14" Column="45" />
+      <File FileName="src/TCC.Api/Configuration/DependencyInjectionConfig.cs" Line="13" Column="61" />
+      <File FileName="src/TCC.Api/Extensions/IdentityMensagensPortugues.cs" Line="28" Column="6" />
+      <File FileName="src/TCC.Api/Startup.cs" Line="32" Column="34" />
+      <File FileName="src/TCC.Api/Configuration/IdentityConfig.cs" Line="18" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TCC.WEB.API" expanded="True">
-            <Node name="DevIO.Business" expanded="True">
-              <Node name="Intefaces" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Item.cs" selected="True" />
+            <Node name="TCC.Api" expanded="True">
+              <Node name="Configuration" expanded="True">
+                <Node name="IdentityConfig.cs" selected="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
             </Node>
-            <Node name="DevIO.Data" expanded="True">
+            <Node name="TCC.Business" expanded="True" />
+            <Node name="TCC.Data" expanded="True">
               <Node name="Context" expanded="True" />
               <Node name="Repository" expanded="True" />
             </Node>
@@ -30,11 +32,15 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>src/DevIO.Business/TCC.Business.csproj</String>
+    <String>src/DevIO.Data/TCC.Data.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DevIO.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.TCC.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

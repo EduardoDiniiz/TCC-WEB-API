@@ -1,0 +1,15 @@
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Data.deps.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Data.runtimeconfig.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Data.runtimeconfig.dev.json
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Data.dll
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Data.pdb
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Business.dll
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/bin/Debug/netcoreapp3.1/TCC.Business.pdb
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.csprojAssemblyReference.cache
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.csproj.CoreCompileInputs.cache
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.AssemblyInfoInputs.cache
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.AssemblyInfo.cs
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.csproj.CopyComplete
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.dll
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.pdb
+/Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API/src/TCC.Data/obj/Debug/netcoreapp3.1/TCC.Data.genruntimeconfig.cache

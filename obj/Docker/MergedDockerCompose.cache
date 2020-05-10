@@ -1,16 +1,18 @@
+networks:
+  tcc-network:
+    driver: bridge
 services:
-  devio.api:
+  tcc.api:
     build:
       context: /Users/eduardolaurentino/Documents/Projetos/Dev/TCC.WEB.API
-      dockerfile: src/DevIO.Api/Dockerfile
+      dockerfile: src/TCC.Api/Dockerfile
     environment:
-      ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
-    image: devio
+      TZ: America/Sao_Paulo
+    image: tcc.api
+    networks:
+      tcc-network: null
     ports:
-    - target: 80
-    - target: 443
-    volumes:
-    - /Users/eduardolaurentino/.aspnet/https:/root/.aspnet/https:ro
-    - /Users/eduardolaurentino/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - published: 5000
+      target: 80
+    restart: always
 version: '3.4'
